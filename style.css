@@ -1,0 +1,87 @@
+*{
+  box-sizing: border-box;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+.soyokaze{
+  height: 700px;
+  width: 500px;
+
+}
+
+#breezelogo{
+  text-align: center;
+  height: 45px;
+  display: flex;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+body{
+  background-color:#fff;
+  margin:0;
+  padding:0;
+}
+
+header{
+  width: 100%;
+  background-color: #c5f7f5;
+  padding: 0 2%;
+  display: flex;
+  justify-content:space-between;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  margin:0 10 0 0;
+}
+
+li {
+  margin-left: 40px;
+  display: inline;
+}
+
+a,a:hover,a:visited{
+  color: inherit;
+  color:#6398cd; text-decoration:none;
+}
+
+p {
+  font-size: 15px;
+}
+
+
+h2 {
+  font-size: 25px;
+}
+.movie-push{
+  font-size: 50px;
+  color: #727c86;
+}
+
+.top-container{
+  width: auto;
+  height: auto;
+}
+
+.text-container{
+  float: right;
+
+}
+
+.content-text{
+  height: 300px;
+  width: 500px;
+}
+
+.audience-voice{
+  height: 300px;
+  width: 500px;
+}
+
+
