@@ -7,6 +7,10 @@ img{
   height: auto;
 }
 
+p{
+  float: right;
+}
+
 .soyokaze{
   height: 700px;
   width: 500px;
@@ -72,10 +76,17 @@ h2 {
   color: #727c86;
 }
 
+.main-container{
+  height: 300px;
+  width: 500px;
+  float: left;
+}
+
 .content-text{
   height: 300px;
   width: 500px;
   float: right;
+  margin:auto;
 }
 
 .audience-voice{
@@ -83,7 +94,13 @@ h2 {
   width: 500px;
 }
 
+.sub-container{
+  float: right;
+}
 
+.sub-data{
+  margin-left: auto;
+}
 
 footer{
   width: 100%;
