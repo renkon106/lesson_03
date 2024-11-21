@@ -3,19 +3,18 @@
 }
 
 .cast{
-  width: 150px;
-  height: 150px;
+  width: 100px;
+  height: 100px;
 }
 
 .Senden{
-  width: 450px;
-  height: 130px;
+  width: 350px;
+  height: 95px;
 }
 
 .soyokaze{
-  height: 700px;
-  width: 500px;
-
+  height: 400px;
+  width: 300px;
 }
 
 #breezelogo{
@@ -91,6 +90,8 @@ h2 {
 
 .sub-container{
   float: right;
+  width: 20%;
+  height: auto;
 }
 
 .sub-data{
