@@ -2,13 +2,14 @@
   box-sizing: border-box;
 }
 
-img{
+.cast{
   width: 150px;
   height: 150px;
 }
 
-p{
-  float: right;
+.Senden{
+  width: 450px;
+  height: 130px;
 }
 
 .soyokaze{
@@ -66,7 +67,6 @@ p {
   font-size: 15px;
 }
 
-
 h2 {
   font-size: 25px;
 }
@@ -77,16 +77,11 @@ h2 {
 }
 
 .main-container{
-  height: 300px;
-  width: 500px;
   float: left;
 }
 
-.content-text{
-  height: 300px;
-  width: 500px;
+.text-content{
   float: right;
-  margin:auto;
 }
 
 .audience-voice{
@@ -100,6 +95,10 @@ h2 {
 
 .sub-data{
   margin-left: auto;
+}
+
+.exp{
+  float: right;
 }
 
 footer{
