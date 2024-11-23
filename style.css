@@ -27,8 +27,6 @@
 
 body{
   background-color:#fff;
-  margin:0;
-  padding:0;
 }
 
 header{
@@ -58,13 +56,11 @@ a,a:hover,a:visited{
 
 main{
   display: fixed;
-  padding-bottom: 60px;
 }
 
 .main-wrapper{
   padding-top: 50px;
   padding-bottom: 10px;
-  margin: 0 auto;
   width: 100%;
 }
 
@@ -84,12 +80,12 @@ h2 {
 .main-contents{
   float: left;
   width: 50%;
-  height: 800px;
 }
 
 .text-content{
   float: right;
   margin-left: 50px;
+  position: fixed;
 }
 
 .audience-voice{
@@ -98,10 +94,9 @@ h2 {
 }
 
 .cast-contents{
+  position: fixed;
   float: right;
   width: 50%;
-  height: auto;
-  text-align: center;
 }
 
 .sub-data{
@@ -123,8 +118,4 @@ footer{
   position: absolute;
   bottom: 0;
   margin-top: 100%;
-}
-
-footer-tx{
-  text-align: center;
 }
