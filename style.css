@@ -23,10 +23,17 @@
   display: flex;
   margin-top: auto;
   margin-bottom: auto;
+  padding: 0 30px;
+}
+
+nav{
+  text-align: right;
+  margin-left: auto;
 }
 
 body{
   background-color:#fff;
+  margin: 0;
 }
 
 header{
@@ -35,7 +42,9 @@ header{
   padding: 0 2%;
   display: fixed;
   justify-content:space-between;
-  position: fixed;
+  margin: 0;
+  padding: 0;
+  text-align: center;
 }
 
 ul {
@@ -81,12 +90,12 @@ h2 {
 .main-contents{
   float: left;
   width: 50%;
+  height: 100px;
 }
 
 .text-content{
   float: right;
   margin-left: 50px;
-  position: fixed;
 }
 
 .audience-voice{
@@ -95,9 +104,9 @@ h2 {
 }
 
 .cast-contents{
-  position: fixed;
   float: right;
-  width: 50%;
+  width: 30%;
+  height: 100px;
 }
 
 .sub-data{
