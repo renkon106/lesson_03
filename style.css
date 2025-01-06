@@ -7,6 +7,16 @@ body{
 
 h2{
   width: 70%;
+  color: #3d4042;
+}
+
+a{
+  text-decoration: none;
+  color: rgb(50, 137, 204);
+}
+
+a:hover{
+  color: skyblue;
 }
 
 
@@ -14,37 +24,30 @@ h2{
 .header{
   display: flex;
   width: 100%;
-  height: 80px;
+  height: 100px;
   margin-top: 0;
-  background-color: rgb(9, 133, 92);
-}
-
-.header-logo{
-  margin: 5px;
-  padding:5px;
-  width:auto;
-  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  border: 2px solid black;
+  position: fixed;
+  background-color: rgb(190, 237, 249);
 }
 
 .breezelogo{
-  margin: 0;
-  padding: 0;
-  width: auto;
+  margin: 5px 15px;
+  width: 200px;
   height: 50px;
 }
 
 .header-nav{
   width: auto;
   padding: 0;
-  margin: 0;
+  margin-left: auto;
   float: right;
-  justify-content: space-between;
 }
 
 .header-navitem{
-  float: right;
-  margin: 0;
-  padding: 0;
+  margin: 20px;
 }
 
 .header-navlist{
@@ -56,55 +59,112 @@ h2{
 
 
 /* main section*/
-.main-column{
-  display: block;
-  padding: 10px 10px;
+.main{
+  width: auto;
+  height: auto;
+  border: 2px solid black;
+}
 
+.main-column{
+  position: fixed;
+  display: flex;
+  margin: 100px;
+  width: 100%;
 }
 
 .main-headline{
   font-weight: bold;
   font-size: 3em;
   text-align: center;
-  padding-left: 15px;
-  margin: 5px;
-  padding: 0;
-  width: 500px;
+  margin: 10px;
+  color: #3d4042;
 }
 
 .text-contents{
-  width: 100%;
-  margin: 0;
-  padding: 0;
   float: right;
+  margin-right: 100px;
+  padding: 0;
 }
 
 .main-image{
-  margin-left: 15px;
+  /* margin: 15px 0 50px 100px; */
   padding: 0;
-  width: 150px;
-  height: 200px;
+  width: 200px;
+  height: 250px;
+  margin-left: 20px;
+  align-items: center;
 }
 
 .main-caption{
+  width: 80%;
+  height: auto;
+  align-items: center;
 }
-.main-Synopsis{}
-.main-AudienceVoice{}
+
+.main-Synopsis{
+  font-size: 12px;
+  color: #3d4042;
+}
+.main-AudienceVoice{
+  font-size: 12px;
+  color: #3d4042;
+}
 
 /* side */
 
 /* cast */
-.side-contents
-.cast
-.side-headline
-.cast-info
-.cast-contents
-.cast-image{
-  width: 15px;
-  height: 15px;
+.side-contents{
+  display: flex;
+  height: auto;
+  border: 2px solid black;
 }
-.cast-data
-.cast-job
-.cast-name
+
+.cast{
+}
+
+.side-headline{
+  text-align: center;
+  font-size: 20px;
+  color: #3d4042;
+}
+.cast-info{
+
+}
+
+.cast-contents{
+  padding: 15px;
+  margin: 10px;
+  height: auto;
+  border: 2px solid black;
+  background-color: rgb(229, 240, 248);
+  border-radius: 30px;
+}
+
+.cast-image{
+  width: 80px;
+  height: 80px;
+  border-radius: 90px;
+}
+
+.cast-data{
+  float: right;
+
+}
+
+.cast-job{
+  width: 100%;
+  text-align: center;
+  margin: 0;
+}
+.cast-name{
+  margin: 0;
+  text-align: center;
+  color: #3d4042;
+}
+
+.pr-image{
+  width: 300px;
+  height: 85px;
+}
 
 /* footer */
