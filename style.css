@@ -1,131 +1,110 @@
-*{
-  box-sizing: border-box;
-}
+@charset "utf-8";
 
-.cast{
-  width: 100px;
-  height: 100px;
-}
-
-.Senden{
-  width: 350px;
-  height: 95px;
-}
-
-.soyokaze{
-  height: 400px;
-  width: 300px;
-}
-
-#breezelogo{
-  text-align: center;
-  height: 45px;
-  display: flex;
-  margin-top: auto;
-  margin-bottom: auto;
-  padding: 0 30px;
-}
-
-nav{
-  text-align: right;
-  margin-left: auto;
-}
-
+/* common*/
 body{
-  background-color:#fff;
-  margin: 0;
+  margin: 0px;
 }
 
-header{
+h2{
+  width: 70%;
+}
+
+
+/* header */
+.header{
+  display: flex;
   width: 100%;
-  background-color: #c5f7f5;
-  padding: 0 2%;
-  display: fixed;
-  justify-content:space-between;
+  height: 80px;
+  margin-top: 0;
+  background-color: rgb(9, 133, 92);
+}
+
+.header-logo{
+  margin: 5px;
+  padding:5px;
+  width:auto;
+  align-items: center;
+}
+
+.breezelogo{
   margin: 0;
   padding: 0;
-  text-align: center;
+  width: auto;
+  height: 50px;
 }
 
-ul {
-  display: flex;
-  list-style: none;
-  margin:0 10px 0 0;
-}
-
-li {
-  margin-left: 40px;
-  display: inline;
-}
-
-a,a:hover,a:visited{
-  color: inherit;
-  color:#6398cd; text-decoration:none;
-}
-
-main{
-  display: fixed;
-}
-
-.main-wrapper{
-  padding-top: 50px;
-  padding-bottom: 10px;
-  width: 100%;
-  height: 80%;
-}
-
-p {
-  font-size: 10px;
-}
-
-h2 {
-  font-size: 25px;
-}
-
-.movie-push{
-  font-size: 50px;
-  color: #727c86;
-}
-
-.main-contents{
-  float: left;
-  width: 50%;
-  height: 100px;
-}
-
-.text-content{
+.header-nav{
+  width: auto;
+  padding: 0;
+  margin: 0;
   float: right;
-  margin-left: 50px;
+  justify-content: space-between;
 }
 
-.audience-voice{
-  height: 300px;
+.header-navitem{
+  float: right;
+  margin: 0;
+  padding: 0;
+}
+
+.header-navlist{
+  float:right;
+  margin: 10px;
+  align-items: center;
+}
+
+
+
+/* main section*/
+.main-column{
+  display: block;
+  padding: 10px 10px;
+
+}
+
+.main-headline{
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+  padding-left: 15px;
+  margin: 5px;
+  padding: 0;
   width: 500px;
 }
 
-.cast-contents{
+.text-contents{
+  width: 100%;
+  margin: 0;
+  padding: 0;
   float: right;
-  width: 30%;
-  height: 100px;
 }
 
-.sub-data{
-  width: 50%;
+.main-image{
+  margin-left: 15px;
+  padding: 0;
+  width: 150px;
+  height: 200px;
 }
 
-.exp{
-  float: right;
-  padding-left: 10px;
-  text-align: center;
+.main-caption{
 }
+.main-Synopsis{}
+.main-AudienceVoice{}
 
+/* side */
 
-footer{
-  height: 50px;
-  width: 100vh;
-  background-color: #c5f7f5;
-  text-align: center;
-  position: absolute;
-  bottom: 0;
-  margin-top: 100%;
+/* cast */
+.side-contents
+.cast
+.side-headline
+.cast-info
+.cast-contents
+.cast-image{
+  width: 15px;
+  height: 15px;
 }
+.cast-data
+.cast-job
+.cast-name
+
+/* footer */

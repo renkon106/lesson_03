@@ -3,74 +3,96 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="sanitize.css">
   <link rel="stylesheet" href="style.css">
   <title>Lesson3</title>
 </head>
 <body>
-  <header>
-    <img src="work/img/breeze.png" alt="ロゴタイトル" id="breezelogo">
-    <nav>
-      <ul>
-        <li><a href="">menu</a></li>
-        <li><a href="">menu</a></li>
-        <li><a href="">menu</a></li>
+  <header class="header">
+    <h1 class="header-logo">
+      <img class="breezelogo" src="work/img/breeze.png" alt="ロゴタイトル" id="toppage">
+    </h1>
+    <nav class="header-nav">
+      <!-- 下線・青表示切り替え無くす -->
+      <ul class="header-navitem">
+        <li class="header-navlist">
+          <a href="#">menu</a>
+        </li>
+        <li class="header-navlist">
+          <a href="#">menu</a>
+        </li>
+        <li class="header-navlist">
+          <a href="#">menu</a>
+        </li>
       </ul>
     </nav>
   </header>
 
-  <main>
-    <div class="main-wrapper">
-      <div class="main-contents">
-        <h1 class="movie-push">新作映画大公開中</h1>
-        <img src="work/img/soyokaze.jpg" alt="そよかぜ" class="soyokaze">
-        <div class="text-content">
+
+  <section class="main-column">
+    <div class="main">
+      <h1 class="main-headline">新作映画大公開中</h1>
+      <div class="main-caption">
+        <img class="main-image" src="./work/img/soyokaze.jpg" alt="main">
+        <div class="text-contents">
           <h2>あらすじ</h2>
-          <p>なにわのダンス小僧そよかぜはダンスバトルに出場することを決意。<br>
+          <p class="main-Synopsis">なにわのダンス小僧そよかぜはダンスバトルに出場することを決意。<br>
             しかし迫り来る寒波に体の震えが止まらず、うまくステップが踏めない。<br>
             ホッカイロ、ヒートテック、ポカポカ靴下...<br>
             どうにか体を温めて超絶ステップ<br>
             優勝だ！
           </p>
           <h2>観客の声</h2>
-          <p>- 全巨匠が泣いた、感動巨編<br>
+          <p class="main-AudienceVoice">- 全巨匠が泣いた、感動巨編<br>
             - 全米でなにわムーブメントが起きる（予定）<br>
             - 最後まで気を抜くな！靴下は滑る！<br>
             - ヒートテックを買いに行こうと思いました<br>
           </p>
         </div>
       </div>
-
-      <div class="cast-contents">
-        <h2>製作者</h2>
-        <div class="sub-data">
-          <img src="work/img/hikasa.jpg" alt="主演KEN" class="cast">
-          <p class="exp">主演<br>
-            KEN
-          </p>
-        </div>
-        <div class="sub-data">
-          <img src="work/img/hotta.jpg" alt="監督KAZUTAKA" class="cast">
-          <p class="exp">監督<br>
-            KAZUTAKA
-          </p>
-        </div>
-        <div class="sub-data">
-          <img src="work/img/lion.jpg" alt="脚本LION" class="cast">
-          <p class="exp">脚本<br>
-            LION
-          </p>
-        </div>
-        <div class="sub-data">
-          <h2>宣伝</h2>
-          <img src="work/img/robotmedia.jpg" alt="宣伝" class="Senden">
-        </div>
-      </div>
     </div>
-  </main>
 
+    <div class="side-contents">
+      <aside class="cast">
+        <h1 class="side-headline">製作者</h1>
+        <div class="cast-info">
+          <figure class="cast-contents">
+            <img class="cast-image" src="./work/img/hikasa.jpg" alt="kan">
+            <figcaption class="cast-data">
+              <h2 class="cast-job">主演</h2>
+              <p class="cast-name">KEN</p>
+            </figcaption>
+          </figure>
+          <figure class="cast-contents">
+            <img class="cast-image" src="./work/img/hotta.jpg" alt="kazutaka">
+            <figcaption class="cast-data">
+              <h2 class="cast-job">監督</h2>
+              <p class="cast-name">KAZUTAKA</p>
+            </figcaption>
+          </figure>
+          <figure class="cast-contents">
+            <img class="cast-image" src="./work/img/lion.jpg" alt="lion">
+            <figcaption class="cast-data">
+              <h2 class="cast-job">脚本</h2>
+              <p class="cast-name">LION</p>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="senden-area">
+          <h1 class="side-headline">宣伝</h1>
+          <img src="./work/img/robotmedia.jpg" alt="senden">
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <!-- 右下寄せ -->
   <footer>
-    <h2 id="footer-tx">お問い合わせ</h2>
-    <p><a href="kazutaka.hotta@breezegroup.jp">kazutaka.hotta@breezegroup.jp</a></p>
+    <p>お問い合わせ</p>
+    <!-- 下線なくす -->
+    <a href="#">kazutaka.hotta@breezegroup.jp</a>
   </footer>
+
 </body>
 </html>
